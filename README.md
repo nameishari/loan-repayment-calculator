@@ -12,7 +12,7 @@ Simple RESTful API for generating annuity loan repayment plan.
 </ul>
 
 ## Endpoints
-* `POST` /generate-plan - Creates an acccount
+* `POST` /generate-plan - Generates plan
   - example request body
   ```json
     {
@@ -24,11 +24,12 @@ Simple RESTful API for generating annuity loan repayment plan.
   ```
 ## Running
 This service is using maven wrapper, it is not necessary to have maven in the execution environment.
-
-```./mvnw clean verify``` - to run tests
-```./mvnw clean package``` - creates executable jar
-```java -jar ./target/loanRepaymentCalculator-1.0-SNAPSHOT.jar``` - Running the executable jar on default port(8080)
-```java -Dserver.port=8090 -jar ./target/loanRepaymentCalculator-1.0-SNAPSHOT.jar``` - If default port, 8080 already in use then it can be changed with server.port
+<ul>
+  <li>```./mvnw clean verify``` - to run tests</li>
+  <li>```./mvnw clean package``` - creates executable jar</li>
+  <li>```java -jar ./target/loanRepaymentCalculator-1.0-SNAPSHOT.jar``` - Running the executable jar on default port(8080) - to run tests</li>
+  <li>```java -Dserver.port=8090 -jar ./target/loanRepaymentCalculator-1.0-SNAPSHOT.jar``` - If default port, 8080 already in use then it can be changed with server.port</li>
+ </ul>
 
 ## Testing the application
 <ul> 
