@@ -25,14 +25,14 @@ Simple RESTful API for generating annuity loan repayment plan.
 ## Running
 This service is using maven wrapper, it is not necessary to have maven in the execution environment.
 <ul>
-  <li>```./mvnw clean verify``` - to run tests</li>
-  <li>```./mvnw clean package``` - creates executable jar</li>
-  <li>```java -jar ./target/loanRepaymentCalculator-1.0-SNAPSHOT.jar``` - Running the executable jar on default port(8080) - to run tests</li>
-  <li>```java -Dserver.port=8090 -jar ./target/loanRepaymentCalculator-1.0-SNAPSHOT.jar``` - If default port, 8080 already in use then it can be changed with server.port</li>
+  <li><b>./mvnw clean verify</b> - to run tests</li>
+  <li><b>./mvnw clean package</b> - creates executable jar</li>
+  <li><b>java -jar ./target/loanRepaymentCalculator-1.0-SNAPSHOT.jar</b> - Running the executable jar on default port(8080) - to run tests</li>
+  <li><b>java -Dserver.port=8090 -jar ./target/loanRepaymentCalculator-1.0-SNAPSHOT.jar</b> - If default port, 8080 already in use then it can be changed with server.port</li>
  </ul>
 
 ## Testing the application
 <ul> 
-    <li>I have deployed this service in <a href="www.heroku.com">heroku</a>. You can visit the link and test the post endpoint using swagger. URL - <a href="https://loan-repayment-generator.herokuapp.com/swagger-ui.html">https://loan-repayment-generator.herokuapp.com/</a></li>
+    <li>I have deployed this service in <a href="www.heroku.com">heroku</a>. You can visit the link and test the endpoint using swagger. URL - <a href="https://loan-repayment-generator.herokuapp.com/swagger-ui.html">https://loan-repayment-generator.herokuapp.com/</a></li>
     <li>You can run the jar file in local and visit <a href="localhost:8080">localhost:8080</a>. Change the port as per local environment.</li>
 </ul>
