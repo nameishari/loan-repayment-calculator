@@ -34,5 +34,5 @@ This service is using maven wrapper, it is not necessary to have maven in the ex
 ## Testing the application
 <ul> 
     <li>I have deployed this service in <a href="www.heroku.com">heroku</a>. You can visit the link and test the endpoint using swagger. URL - <a href="https://loan-repayment-generator.herokuapp.com/swagger-ui.html">https://loan-repayment-generator.herokuapp.com/</a></li>
-    <li>You can run the jar file in local and visit <a href="localhost:8080">localhost:8080</a>. Change the port as per local environment.</li>
+    <li>You can run the jar file in local and visit <a href="http://localhost:8080">localhost:8080</a>. Change the port as per local environment.</li>
 </ul>
