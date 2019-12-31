@@ -22,6 +22,7 @@ public class ValidationExceptionHandlerAdvice {
     @ExceptionHandler({RuntimeException.class})
     @ResponseBody
     public ResponseEntity<Map<String, Object>> handle(RuntimeException exception) {
+        log.warn("Encountered exception while processing request", exception);
         ResponseStatus annotation = AnnotationUtils.findAnnotation(exception.getClass(), ResponseStatus.class);
         HttpStatus status = getStatus(annotation);
         Map<String, Object> body = new HashMap<>();
