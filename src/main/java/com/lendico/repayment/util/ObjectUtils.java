@@ -1,4 +1,4 @@
-package com.lendico.repayment.util.common;
+package com.lendico.repayment.util;
 
 public final class ObjectUtils {
 
