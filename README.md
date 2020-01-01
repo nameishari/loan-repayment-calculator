@@ -27,7 +27,7 @@ This service is using maven wrapper, it is not necessary to have maven in the ex
 <ul>
   <li><b>./mvnw clean verify</b> - to run tests</li>
   <li><b>./mvnw clean package</b> - creates executable jar</li>
-  <li><b>java -jar ./target/loanRepaymentCalculator-1.0-SNAPSHOT.jar</b> - Running the executable jar on default port(8080) - to run tests</li>
+  <li><b>java -jar ./target/loanRepaymentCalculator-1.0-SNAPSHOT.jar</b> - Runs the executable jar on default port(8080)</li>
   <li><b>java -Dserver.port=8090 -jar ./target/loanRepaymentCalculator-1.0-SNAPSHOT.jar</b> - If default port, 8080 already in use then it can be changed with server.port</li>
  </ul>
 
